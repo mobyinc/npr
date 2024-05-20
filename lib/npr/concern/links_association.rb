@@ -10,7 +10,7 @@ module NPR
       #
       # Example:
       #
-      #   story.link_for("html")    #=> http://npr.org/...
+      #   story.link_for("html")    #=> https://npr.org/...
       #   story.link_for("nothing") #=> nil
       #
       # Returns an the content of that link if found,

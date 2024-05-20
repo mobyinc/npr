@@ -52,7 +52,7 @@ ext_map = {
 ext_map.keys.each do |output|
   puts "Fetching #{output}..."
 
-  uri = URI.parse("http://api.npr.org/query?apiKey=#{options[:key]}&id=#{options[:id]}&output=#{output}")
+  uri = URI.parse("https://api.npr.org/query?apiKey=#{options[:key]}&id=#{options[:id]}&output=#{output}")
   response = Net::HTTP.get_response(uri).body
 
   # Remove API Key from responses

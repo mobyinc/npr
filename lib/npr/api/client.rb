@@ -20,7 +20,7 @@ module NPR
 
       #-----------------
       # Argument is a hash of params to send to the API.
-      # See <http://www.npr.org/api/inputReference.php> for
+      # See <https://www.npr.org/api/inputReference.php> for
       # API documentation.
       #
       # Example:
