@@ -37,7 +37,7 @@ module NPR
   # gem by accessing +NPR.config+
   #
   class Configuration
-    API_ROOT = "http://api.npr.org"
+    API_ROOT = "https://api.npr.org"
 
     API_QUERY_PATH = "/query"
     API_LIST_PATH  = "/list"
